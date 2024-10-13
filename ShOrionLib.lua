@@ -14,12 +14,12 @@ local OrionLib = {
         Flags = {},
         Themes = {
         Default = {
-                Main = Color3.fromRGB(255, 140, 140),      -- Darker reddish
-                Second = Color3.fromRGB(200, 55, 55),      -- Slightly darker red
-                Stroke = Color3.fromRGB(215, 95, 95),      -- Darker stroke
-                Divider = Color3.fromRGB(130, 40, 40),     -- Divider with lower intensity
-                Text = Color3.fromRGB(155, 45, 45),        -- Keep text light for contrast
-                TextDark = Color3.fromRGB(195, 70, 70)     -- Adjusted to valid RGB range
+                Main = Color3.fromRGB(255, 214, 214),      -- Darker reddish
+                Second = Color3.fromRGB(242, 56, 56),      -- Slightly darker red
+                Stroke = Color3.fromRGB(225, 95, 95),      -- Darker stroke
+                Divider = Color3.fromRGB(150, 60, 60),     -- Divider with lower intensity
+                Text = Color3.fromRGB(190, 75, 75),        -- Keep text light for contrast
+                TextDark = Color3.fromRGB(245, 150, 150)     -- Adjusted to valid RGB range
             }
     },
     SelectedTheme = "Default",
