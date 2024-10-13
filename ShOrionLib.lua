@@ -18,8 +18,8 @@ local OrionLib = {
 		Second = Color3.fromRGB(180, 45, 45),   -- Slightly darker red
 		Stroke = Color3.fromRGB(190, 60, 60),   -- Darker stroke
 		Divider = Color3.fromRGB(120, 30, 30),  -- Divider with lower intensity
-		Text = Color3.fromRGB(240, 240, 240),   -- Keep text light for contrast
-		TextDark = Color3.fromRGB(140, 50, 50)  -- Darker reddish for text
+		Text = Color3.fromRGB(180, 240, 240),   -- Keep text light for contrast
+		TextDark = Color3.fromRGB(260, 80, 80)  -- Darker reddish for text
 		}
 	},
 	SelectedTheme = "Default",
