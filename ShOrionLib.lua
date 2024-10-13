@@ -19,7 +19,7 @@ local OrionLib = {
                 Stroke = Color3.fromRGB(225, 95, 95),      -- Darker stroke
                 Divider = Color3.fromRGB(150, 60, 60),     -- Divider with lower intensity
                 Text = Color3.fromRGB(199, 199, 199),        -- Keep text light for contrast
-                TextDark = Color3.fromRGB(247, 84, 84)     -- Adjusted to valid RGB range
+                TextDark = Color3.fromRGB(171, 12, 12)     -- Adjusted to valid RGB range
             }
     },
     SelectedTheme = "Default",
