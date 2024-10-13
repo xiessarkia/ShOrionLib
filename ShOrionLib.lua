@@ -8,23 +8,23 @@ local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
 local OrionLib = {
-	Elements = {},
-	ThemeObjects = {},
-	Connections = {},
-	Flags = {},
-	Themes = {
-		Default = {
-		Main = Color3.fromRGB(255, 140, 140),     -- Darker reddish
-		Second = Color3.fromRGB(200, 55, 55),   -- Slightly darker red
-		Stroke = Color3.fromRGB(215, 95, 95),   -- Darker stroke
-		Divider = Color3.fromRGB(130, 40, 40),  -- Divider with lower intensity
-		Text = Color3.fromRGB(195, 70, 70),   -- Keep text light for contrast
-		TextDark = Color3.fromRGB(260, 95, 95)  -- Darker reddish for text
-		}
-	},
-	SelectedTheme = "Default",
-	Folder = nil,
-	SaveCfg = false
+        Elements = {},
+        ThemeObjects = {},
+        Connections = {},
+        Flags = {},
+        Themes = {
+        Default = {
+                Main = Color3.fromRGB(255, 140, 140),      -- Darker reddish
+                Second = Color3.fromRGB(200, 55, 55),      -- Slightly darker red
+                Stroke = Color3.fromRGB(215, 95, 95),      -- Darker stroke
+                Divider = Color3.fromRGB(130, 40, 40),     -- Divider with lower intensity
+                Text = Color3.fromRGB(195, 70, 70),        -- Keep text light for contrast
+                TextDark = Color3.fromRGB(155, 45, 45)     -- Adjusted to valid RGB range
+            }
+    },
+    SelectedTheme = "Default",
+    Folder = nil,
+    SaveCfg = false
 }
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
