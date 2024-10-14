@@ -8,23 +8,23 @@ local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
 local OrionLib = {
-        Elements = {},
-        ThemeObjects = {},
-        Connections = {},
-        Flags = {},
-        Themes = {
-        Default = {
-                Main = Color3.fromRGB(212, 32, 32),      -- Darker reddish
-                Second = Color3.fromRGB(194, 22, 22),      -- Slightly darker red
-                Stroke = Color3.fromRGB(124, 0, 0),      -- Darker stroke
-                Divider = Color3.fromRGB(235, 77, 77),     -- Divider with lower intensity
-                Text = Color3.fromRGB(248, 235, 235),        -- Keep text light for contrast
-                TextDark = Color3.fromRGB(94, 20, 20)     -- Adjusted to valid RGB range
-            }
-    },
-    SelectedTheme = "Default",
-    Folder = nil,
-    SaveCfg = false
+	Elements = {},
+	ThemeObjects = {},
+	Connections = {},
+	Flags = {},
+	Themes = {
+		Default = {
+			Main = Color3.fromRGB(212, 32, 32),
+			Second = Color3.fromRGB(194, 22, 32),
+			Stroke = Color3.fromRGB(114, 13, 13),
+			Divider = Color3.fromRGB(235, 77, 77),
+			Text = Color3.fromRGB(248, 235, 235),
+			TextDark = Color3.fromRGB(94, 20, 20)
+		}
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
 }
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
@@ -297,7 +297,7 @@ end)
 
 CreateElement("Frame", function(Color)
 	local Frame = Create("Frame", {
-		BackgroundColor3 = Color or Color3.fromRGB(255, 77, 77),
+		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
 		BorderSizePixel = 0
 	})
 	return Frame
@@ -305,7 +305,7 @@ end)
 
 CreateElement("RoundFrame", function(Color, Scale, Offset)
 	local Frame = Create("Frame", {
-		BackgroundColor3 = Color or Color3.fromRGB(255, 77, 77),
+		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
 		BorderSizePixel = 0
 	}, {
 		Create("UICorner", {
